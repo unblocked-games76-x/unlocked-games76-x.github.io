@@ -43,4 +43,4 @@ def replace_footer_content(directory):
                 print(f'Error processing {filename}: {str(e)}')
 
 # 使用示例
-replace_footer_content('category')
+replace_footer_content('games')
