@@ -4,14 +4,9 @@ import re
 def replace_footer_content(directory):
     # 新的footer内容
     new_footer_content = '''
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VJ8YX2Y9JM"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'G-VJ8YX2Y9JM');
-    </script>
-     '''
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1331971422311386"
+        crossorigin="anonymous"></script>
+    '''
 
     # 确保目录路径末尾有斜杠
     if not directory.endswith('/'):
